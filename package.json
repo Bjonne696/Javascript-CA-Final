@@ -1,0 +1,26 @@
+{
+  "name": "javascript-ca-final",
+  "version": "1.0.0",
+  "description": "THis is my final atempt at JS2 CA",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css & live-server",
+    "dev": "npm-run-all --parallel watch start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bjonne696/Javascript-CA-Final.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bjonne696/Javascript-CA-Final/issues"
+  },
+  "homepage": "https://github.com/Bjonne696/Javascript-CA-Final#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "sass": "^1.69.7"
+  }
+}
